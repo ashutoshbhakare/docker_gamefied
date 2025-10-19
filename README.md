@@ -104,3 +104,117 @@ Access admin panal at: **http://localhost:9002/admin**
 
 
 ---
+# 🧭 Admin Panel — Docker Commander
+
+**Developed by:** Unnati Development & Training Center  
+**Built on:** Firebase Studio  
+**Purpose:** Interactive Linux & Docker Task Game for Students  
+
+---
+
+## 📖 Overview
+
+The **Admin Panel** of **Docker Commander** empowers instructors and administrators to create, manage, and monitor **interactive Linux and Docker challenges** for students.
+
+It is a secure, containerized web application that enables trainers to:
+- Generate unique **game codes** for each session,
+- Create and assign **hands-on Linux/Docker tasks**,
+- Monitor **student progress** and **submissions**, and
+- Track overall usage and performance analytics.
+
+Admins must **log in using a username and password** before gaining access to the Admin Dashboard.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Pull the Docker Image
+
+The official image is available publicly on Docker Hub.  
+To get started, pull the image using:
+
+```bash
+docker pull image-name/here
+```
+
+# 2️⃣ Run the Application
+
+Run the Docker container on port 9002, setting the required environment variables for your setup:
+
+```bash
+docker run -p 9002:9002 \
+  -e NEXT_PUBLIC_BRAND_URL="https://your-url.com" \
+  -e ADMIN_USERNAME="new_admin" \
+  -e ADMIN_PASSWORD="new_password" \
+  -e GEMINI_API_KEY="your_gemini_api_key" \
+  your-dockerhub-username/your-image-name
+---
+## 🧠 Student Landing Page – Join the Game  
+
+When students visit the application on **port 9002**, they’ll be greeted with a clean and interactive **“Join the Game”** screen — the starting point of their learning journey.  
+
+![Student Landing Page](54de290c-1970-4d80-8c6e-147a1d9a2a98.png)
+image will be here
+### ✨ Page Overview
+
+The **Join the Game** page allows students to enter basic details and access their assigned challenges.  
+It provides a simple and elegant way to begin interactive Linux or Docker tasks.
+
+### 🧩 Fields Description
+
+| Field | Description |
+|--------|-------------|
+| **Username** | The display name of the student joining the session. |
+| **Email** | Used for tracking progress and sending notifications. |
+| **Game Code** | A unique code provided by the instructor to join a specific task session or challenge. |
+
+After filling out these details, the student clicks the **“Join Game”** button to start their challenge session.
+
+---
+
+### 💡 Key Highlights
+
+- 🎮 **Interactive Start:** Students instantly jump into gamified Linux/Docker tasks.  
+- 🔐 **Session-Based Access:** Each challenge is controlled via a unique game code.  
+- 🎨 **Modern UI:** Clean, responsive, and powered by Firebase Studio frontend.  
+- 🧭 **Easy to Use:** Just enter your name, email, and game code — and you’re ready to learn!  
+- 🧱 **Built for Unnati Development & Training Center:** Designed specifically for hands-on DevOps education.
+
+---
+
+Once a user joins, they are redirected to their respective **task dashboard**, where the learning game begins!
+
+## 🧱 Docker Task Simulator – Student Progress View  
+
+After joining the game, students enter the **Docker Task Simulator** interface — an interactive environment where they execute Linux and Docker tasks in real-time.
+
+![Docker Commander - Student View](Docker%20Commander%20-%20Firebase%20Studio%20-%20Google%20Chrome%2010_17_2025%203_34_47%20PM.png)
+image will be here
+
+### 🧩 Page Overview  
+
+The **Docker Commander** dashboard provides students with task descriptions, progress tracking, and a built-in terminal simulator where commands are executed.  
+It’s designed to make Linux and Docker learning **fun, interactive, and measurable**.
+
+---
+
+### 🧠 Interface Breakdown  
+
+| Section | Description |
+|----------|-------------|
+| **Progress Bar** | Displays the number of tasks completed vs. total tasks. |
+| **Task Window** | Shows the current task — e.g., `Task 1 of 1: Add user`. |
+| **Command Simulator** | Terminal-style interface where students type commands. |
+| **Check Progress Button** | Validates the executed command and updates progress points. |
+| **Clear Screen Button** | Clears the terminal output for a cleaner workspace, just like a real CLI. |
+| **Points Indicator** | Tracks the total score earned through task completion. |
+
+---
+
+### ⚙️ Example  
+
+For the given example:  
+**Task:** *Add a user named `abhay`*  
+The student would type:  
+```bash
+adduser abhay
