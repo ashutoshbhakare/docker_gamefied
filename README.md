@@ -115,6 +115,7 @@ Access admin panal at: **http://localhost:9002/admin**
 ## 📖 Overview
 
 The **Admin Panel** of **Docker Commander** empowers instructors and administrators to create, manage, and monitor **interactive Linux and Docker challenges** for students.
+![Docker Commander - Student View](src/adminpnlcode.png)
 
 It is a secure, containerized web application that enables trainers to:
 - Generate unique **game codes** for each session,
@@ -186,8 +187,7 @@ Once a user joins, they are redirected to their respective **task dashboard**, w
 
 After joining the game, students enter the **Docker Task Simulator** interface — an interactive environment where they execute Linux and Docker tasks in real-time.
 
-![Docker Commander - Student View](Docker%20Commander%20-%20Firebase%20Studio%20-%20Google%20Chrome%2010_17_2025%203_34_47%20PM.png)
-image will be here
+![Docker Commander - Student View](src/useradd.png)
 
 ### 🧩 Page Overview  
 
@@ -216,3 +216,5 @@ For the given example:
 The student would type:  
 ```bash
 adduser abhay
+```
+![Docker Commander - Student View](src/useradd.png)
