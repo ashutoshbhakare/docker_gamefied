@@ -24,7 +24,7 @@ The public image is available on **Docker Hub**.
 You can pull it directly using:
 
 ```bash
-docker pull abhaydandgedocker/dcom10
+docker pull abhaydandgedocker/dcom5
 ```
 
 ---
@@ -34,11 +34,11 @@ docker pull abhaydandgedocker/dcom10
 Launch the container with the following command:
 
 ```bash
-docker run -p 9002:9002 -e NEXT_PUBLIC_BRAND_URL="https://your-url.com" -e ADMIN_USERNAME="new_admin" -e ADMIN_PASSWORD="new_password" -e GEMINI_API_KEY="A"   abhaydandgedocker/dcom10
+docker run -d -p 9002:9002 -e GEMINI_API_KEY="********************"  abhaydandgedocker/dcom5
 ```
 
 🧠 **Explanation of Environment Variables:**
-
+#for the next version*
 | Variable | Description |
 |-----------|--------------|
 | `NEXT_PUBLIC_BRAND_URL` | Your application’s base URL |
@@ -94,7 +94,7 @@ If you’re a student or trainer and would like to contribute new Linux or Docke
 ### 🐋 Example Command Recap
 
 ```bash
-docker run -p 9002:9002 -e NEXT_PUBLIC_BRAND_URL="https://your-url.com" -e ADMIN_USERNAME="new_admin" -e ADMIN_PASSWORD="new_password" -e GEMINI_API_KEY="A"   abhaydandgedocker/dcom10
+docker run -d -p 9002:9002 -e GEMINI_API_KEY="********************"  abhaydandgedocker/dcom5
 ```
 
 Access it at: **http://localhost:9002**
@@ -134,7 +134,7 @@ The official image is available publicly on Docker Hub.
 To get started, pull the image using:
 
 ```bash
-docker pull image-name/here
+docker pull abhaydandgedocker/dcom5
 ```
 
 # 2️⃣ Run the Application
@@ -143,11 +143,8 @@ Run the Docker container on port 9002, setting the required environment variable
 
 ```bash
 docker run -p 9002:9002 \
-  -e NEXT_PUBLIC_BRAND_URL="https://your-url.com" \
-  -e ADMIN_USERNAME="new_admin" \
-  -e ADMIN_PASSWORD="new_password" \
   -e GEMINI_API_KEY="your_gemini_api_key" \
-  your-dockerhub-username/your-image-name
+  abhaydandgedocker/dcom5
 ```
 ---
 ## 🧠 Student Landing Page – Join the Game  
