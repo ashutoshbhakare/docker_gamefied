@@ -97,12 +97,7 @@ Access admin panal at: **http://localhost:9002/admin**
 
 
 ---
-# 🧭 Admin Panel — Docker Commander
-
-**Developed by:** Unnati Development & Training Center  
-**Built on:** Firebase Studio  
-**Purpose:** Interactive Linux & Docker Task Game for Students  
-
+# 🧭 Admin Panel — Docker Commander  
 ---
 
 ## 📖 Overview
