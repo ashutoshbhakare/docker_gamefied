@@ -152,7 +152,7 @@ docker run -p 9002:9002 \
 
 When students visit the application on **port 9002**, they’ll be greeted with a clean and interactive **“Join the Game”** screen — the starting point of their learning journey.  
 
-![Student Landing Page](54de290c-1970-4d80-8c6e-147a1d9a2a98.png)
+![Student Landing Page](src/studentlogin.png)
 image will be here
 ### ✨ Page Overview
 
@@ -187,7 +187,7 @@ Once a user joins, they are redirected to their respective **task dashboard**, w
 
 After joining the game, students enter the **Docker Task Simulator** interface — an interactive environment where they execute Linux and Docker tasks in real-time.
 
-![Docker Commander - Student View](src/useradd.png)
+![Docker Commander - Student View](src/task.png)
 
 ### 🧩 Page Overview  
 
@@ -217,4 +217,4 @@ The student would type:
 ```bash
 adduser abhay
 ```
-![Docker Commander - Student View](src/useradd.png)
+![Docker Commander - Student View](src/result.png)
