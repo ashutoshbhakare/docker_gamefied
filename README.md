@@ -92,9 +92,7 @@ docker run -d -p 9002:9002 -e GEMINI_API_KEY="********************"  ashutoshbha
 
 Access it at: **http://localhost:9002**
 Access admin panal at: **http://localhost:9002/admin**
-
-
-
+Admin Login: **username=unnati,passwd=unnati@123**
 
 ---
 # 🧭 Admin Panel — Docker Commander  
