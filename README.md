@@ -1,6 +1,6 @@
 # 🐧 Interactive Linux & Docker Task Game  
 
-**Developed by:** *Ashutosh S. Bhakare : CEO - Unnati Development & Training Center*  
+**Developed by:** *Ashutosh S. Bhakare : CEO - Unnati Development & Training Centre Pvt Ltd*  
 **Platform:** Firebase Studio  
 **Category:** Educational / Gamified Learning  
 
