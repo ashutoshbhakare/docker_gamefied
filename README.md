@@ -76,13 +76,6 @@ You’ll now have access to the **Interactive Linux & Docker Game Interface**!
 
 ---
 
-## 🧑‍💻 Developed & Maintained By  
-
-**Unnati Development & Training Center**  
-Empowering students to learn DevOps, Cloud, and Open Source technologies through hands-on education.  
-
----
-
 ## 📢 Connect & Contribute  
 
 If you’re a student or trainer and would like to contribute new Linux or Docker challenges, feel free to fork the repository or contact the Unnati Dev Team.  
