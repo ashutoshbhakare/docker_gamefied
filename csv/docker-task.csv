@@ -1,0 +1,10 @@
+Title,Description,Points,Type
+Pull an Image,Use the Docker CLI to pull the latest "nginx" image from Docker Hub.,100,docker
+Run a Container,Run a container named "webserver" using the "nginx" image in detached mode.,100,docker
+List Running Containers,List all currently running containers using the Docker command.,100,docker
+Stop a Container,Stop the running container named "webserver".,100,docker
+Remove a Container,Remove the container named "webserver" from your system.,100,docker
+Inspect an Image,Inspect the "nginx" image to view its metadata and configuration details.,100,docker
+View Container Logs,Display the logs of a running container named "webserver".,100,docker
+Copy File to Container,Copy a local file named "index.html" into the "/usr/share/nginx/html" directory of the "webserver" container.,100,docker
+Build a Docker Image,Build a Docker image named "custom-ubuntu" using the Dockerfile created in the current directory.,100,docker

@@ -1,0 +1,51 @@
+Title,Description,Points,type
+Create a File,Create a new file named "welcome.txt" in your home directory.,100,linux
+Edit File with echo,Add the text "Hello Linux!" to the file "welcome.txt" using echo command.,100,linux
+View File Content,Display the contents of the "welcome.txt" file.,100,linux
+Copy a File,Copy the file "welcome.txt" to a new file named "copy.txt" in the same directory.,100,linux
+Move a File,Move "copy.txt" to a directory named "backup" (create the directory first if it doesn’t exist).,100,linux
+Remove a File,Delete the file "copy.txt" from the "backup" directory.,100,linux
+List Files,Show all files (including hidden ones) in your current directory.,100,linux
+Create Directory,Create a directory named "projects" inside your home directory.,100,linux
+Navigate Directories,Change directory to "projects".,100,linux
+Check Current Directory,Display the full path of your current working directory.,100,linux
+Create Multiple Files,Create three files named "a.txt", "b.txt", and "c.txt" simultaneously.,100,linux
+View Disk Usage,Display disk space usage using the "df" command.,100,linux
+Check Memory Usage,Show memory usage using the "free" command.,100,linux
+Display System Uptime,Show how long the system has been running using the "uptime" command.,100,linux
+Show Current Users,Display the list of users currently logged into the system.,100,linux
+Show Date and Time,Display the current date and time.,100,linux
+Set Permissions,Give execute permission to the file "welcome.txt".,100,linux
+View File Permissions,Check the permissions of "welcome.txt".,100,linux
+Create Hidden File,Create a hidden file named ".secret" in your home directory.,100,linux
+Display File Type,Use the "file" command to display the type of "welcome.txt".,100,linux
+Create a Symbolic Link,Create a symbolic link named "link_to_welcome" pointing to "welcome.txt".,100,linux
+Count Words in File,Count the number of words in "welcome.txt" using the "wc" command.,100,linux
+Sort File Content,Create a file "names.txt" with random names and sort them alphabetically.,100,linux
+Search Inside File,Find the word "Linux" in "welcome.txt" using "grep".,100,linux
+Redirect Output,Redirect the output of "ls" command to a file named "list.txt".,100,linux
+Append Output,Append the output of "pwd" command to "list.txt".,100,linux
+Create User (Simulation),Simulate creating a new user named "student" using the "useradd" command.,100,linux
+Switch User (Simulation),Simulate switching to the "student" user using the "su" command.,100,linux
+Display System Info,Show system information using the "uname -a" command.,100,linux
+Show Running Processes,Display the list of currently running processes.,100,linux
+Kill a Process (Simulation),Simulate killing a process with PID 1234 using "kill" command.,100,linux
+Check File Size,Display the size of "welcome.txt" in bytes.,100,linux
+Compress File,Create a tar archive named "backup.tar" for your "projects" directory.,100,linux
+Extract Archive,Extract the contents of "backup.tar".,100,linux
+View Command History,Show the last 10 commands you executed.,100,linux
+Check Network Info,Display your system’s IP address using the "ip a" command.,100,linux
+Ping a Website,Simulate pinging "google.com" to test connectivity.,100,linux
+Create an Empty File,Create an empty file named "notes.txt" using "touch".,100,linux
+Display File Lines,Show only the first 5 lines of "names.txt".,100,linux
+Display Last Lines,Show the last 3 lines of "names.txt".,100,linux
+Use Pipe Command,Combine "ls" and "grep" to search for ".txt" files in your directory.,100,linux
+Find a File,Find a file named "welcome.txt" starting from your home directory.,100,linux
+Check System Date Format,Display the system date in "YYYY-MM-DD" format.,100,linux
+Create Group (Simulation),Simulate creating a new group named "developers".,100,linux
+Add User to Group (Simulation),Simulate adding "student" user to the "developers" group.,100,linux
+Change File Ownership (Simulation),Simulate changing ownership of "welcome.txt" to "student".,100,linux
+View Current User,Show your current logged-in username.,100,linux
+Set Alias,Create an alias named "ll" for "ls -l".,100,linux
+
+

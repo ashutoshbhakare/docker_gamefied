@@ -1,0 +1,10 @@
+Create a New User Account,Set up a new user on the system and ensure they can log in successfully.Username will unnati,100,linux
+Set a Password for a User,Assign a secure password to an existing user account(unnati).,100,linux
+Modify User Information,Update details - home directory for a user(unnati).Note - Set homedir as /home/unnati,100,linux
+Add User to a Group,Include an existing user in an existing group to provide group-based permissions.User=unnati | Group=unnati,100,linux
+Create and Delete Groups,Create a new group. Group name should be linux,100,linux
+Set File Ownership,Assign ownership of a specific file - /root/file to a particular unnati user.,100,linux
+Set File Permissions,Configure permissions to so unnati user can read, write, or execute a file named /root/file2.,100,linux
+Lock and Unlock User Accounts,Temporarily disable and then re-enable a user account for security reasons.Note - nologin shell,100,linux
+View User Login Information,Check details about user login history or currently logged-in users.,100,linux
+
