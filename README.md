@@ -2,6 +2,7 @@
 
 **Developed by:** *Ashutosh S. Bhakare : CEO - Unnati Development & Training Centre Pvt Ltd*  
 **Platform:** Firebase Studio  
+**Purpose:** To help community / organization to host Docker / Linux Gamified Application 
 **Category:** Educational / Gamified Learning  
 
 ---
