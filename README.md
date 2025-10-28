@@ -115,7 +115,7 @@ Access admin panal at: **http://localhost:9002/admin**
 ## 📖 Overview
 
 The **Admin Panel** of **Docker Commander** empowers instructors and administrators to create, manage, and monitor **interactive Linux and Docker challenges** for students.
-![Docker Commander - Student View](src/adminpnlcode.png)
+![Docker Commander - Student View](src/adminpnl.png)
 
 It is a secure, containerized web application that enables trainers to:
 - Generate unique **game codes** for each session,
